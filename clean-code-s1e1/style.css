@@ -26,7 +26,7 @@ body {
     }
 }
 
-.centered-element {
+.centered__element {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -106,7 +106,7 @@ label[for='new-task'] {
     margin: 0 0 20px;
 }
 
-input#new-task {
+input#new__task {
     width: 318px;
 }
 
@@ -151,7 +151,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed__tasks label {
     text-decoration: line-through color: #888;
 }
 
@@ -160,11 +160,11 @@ ul li input[type=text] {
     display: none
 }
 
-ul li.editMode input[type=text] {
+ul li.edit__mode input[type=text] {
     display: inline-block;
     width: 224px
 }
 
-ul li.editMode label {
+ul li.edit__mode label {
     display: none;
 }
